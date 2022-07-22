@@ -1,0 +1,34 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+        window.logger = function (text) {
+            const node = document.createElement("p");
+            node.innerText = text;
+            document.getElementById("container").appendChild(node)
+        }
+    </script>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script>
+        function cookLunch() {
+            const myFutureValue = new Promise((resolve, reject) => {
+                resolve(true);
+            });
+            myFutureValue.then(() => {
+                // promise handler
+
+            });
+            logger("Water Boiled ...");
+            logger("Dishes Done ...");
+            logger("Lunch Cooked ...");
+        }
+        cookLunch();
+    </script>
+</body>
+
+</html>

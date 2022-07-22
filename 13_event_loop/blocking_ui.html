@@ -1,0 +1,39 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+        function onClickAsync() {
+            document.getElementById("btn").textContent = "Working ..."
+            setTimeout(() => {
+                for (let i = 0; i < 120000; i++) {
+                    console.log("blocked for ...", i)
+                }
+                document.getElementById("btn").textContent = "Done!"
+            }, 0)
+        }
+        function onClick() {
+            document.getElementById("btn").textContent = "Working ...!"
+            for (let i = 0; i < 120000; i++) {
+                console.log("blocked for ...", i)
+            }
+            document.getElementById("btn").textContent = "Done!"
+
+        }
+    </script>
+    <style>
+        #btn:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button id="btn" onClick="onClickAsync()">Click Me!</button>
+    </div>
+
+</body>
+
+</html>

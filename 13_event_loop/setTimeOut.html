@@ -1,0 +1,28 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+        function doDishes() {
+            console.log("Dishes Done ...")
+        }
+        function boilWater() {
+            console.log("Water Boiled ...")
+        }
+        function cookLunch() {
+            setTimeout(boilWater, 0)
+            doDishes()
+            console.log("Lunch Cooked ...")
+        }
+    </script>
+    <script>
+        cookLunch()
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

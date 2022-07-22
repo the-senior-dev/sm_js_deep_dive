@@ -1,0 +1,35 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+        function turnStoveOn() {
+            console.log("Stove is on ...")
+        }
+        function cookMeat() {
+            boilWater()
+            console.log("Meat Cooked ...")
+        }
+        function doDishes() {
+            console.log("Dishes Done ...")
+        }
+        function boilWater() {
+            turnStoveOn()
+            console.log("Water boiled ...")
+        }
+        function cookLunch() {
+            cookMeat()
+            doDishes()
+        }
+    </script>
+    <script>
+        cookLunch()
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

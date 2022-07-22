@@ -1,7 +1,8 @@
 // Where is a available?
 
 // Global Scope
-function printValue() {}{
+function printValue() {}
+{
   // Function scope
   const myVar = true;
   if (true) {
@@ -13,10 +14,7 @@ function printValue() {}{
   }
 
   {
-    
   }
 }
-
-
 
 printValue();
