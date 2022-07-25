@@ -9,6 +9,8 @@ For true expertise we need language mastery, in this case JavaScript. In this re
 5. Callback Hell
 10. Primitives
 
+-----
+
 ### [PROFICIENT]
 2. Function Currying
 6. Prototypal Inheritance
@@ -20,6 +22,8 @@ For true expertise we need language mastery, in this case JavaScript. In this re
 16. The Queue
 19. Classes
 
+-----
+
 ### [EXPERT]
 9. Call v.s. Apply v.s. Bind
 11. Immediately Invoked Functions
@@ -28,6 +32,8 @@ For true expertise we need language mastery, in this case JavaScript. In this re
 18. Generator Functions
 20. Pass by reference v.s. Pass by value
 21. The Symbol Primitive 
+
+-----
 
 ### Getting Help
 
