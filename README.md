@@ -29,5 +29,8 @@ For true expertise we need language mastery, in this case JavaScript. In this re
 20. Pass by reference v.s. Pass by value
 21. The Symbol Primitive 
 
+### Getting Help
 
-Made with 🧡 in Berlin by @TheSeniorDev
+If you have issues with the Action Item, you can ask for help in the [Community](https://community.theseniordev.com/home) or in the [Weekly Q&A’s](https://calendar.google.com/calendar/u/0?cid=Y19kbGVoajU1Z2prNXZmYmdoYmxtdDRvN3JyNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+
+**Made with 🧡 in Berlin by @TheSeniorDev.**
