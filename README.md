@@ -1,4 +1,4 @@
-# JS Deep Dive - The Senior Dev
+# JS Deep Dive - The Senior Dev 🔬
 
 For true expertise we need language mastery, in this case JavaScript. In this repo you find the code examples used in all the video in the JavaScript deep dive.
 
