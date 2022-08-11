@@ -5,15 +5,3 @@ function cookLunch() {
 }
 
 cookLunch();
-
-("Dishes Done ...");
-("Water Boiled ...");
-("Lunch Cooked ...");
-
-("Dishes Done ...");
-("Lunch Cooked ...");
-("Water Boiled ...");
-
-("Water Boiled ...");
-("Dishes Done ...");
-("Lunch Cooked ...");
