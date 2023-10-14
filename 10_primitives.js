@@ -1,15 +1,34 @@
-// data types
-// string,
+// 📝 String Data Type
 "ecmascript";
-// number
+
+// 🔢 Number Data Type
 45;
-// bigint,
+
+// 💹 BigInt Data Type
 9007199254740991n;
-// null
+
+// 🚫 Null Data Type
 null;
-// undefined
+console.log(typeof null, "");  // Output will be "object"
+
+// ❓ Undefined Data Type
 undefined;
-// boolean
-true;
-// symbol
+
+// 🟢 Boolean Data Type
+true; 
+
+// 🔏 Symbol Data Type
 Symbol();
+
+// Non-Primitive Data Types
+
+// 📦 Object Data Type
+const obj = {
+    value: "ecmascript",
+};
+
+typeof obj.value; // Output will be "string"
+
+// 📦 Arrat Data Type
+const list = [];
+typeof list; // Output will be "object"
