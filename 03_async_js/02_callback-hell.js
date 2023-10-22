@@ -25,21 +25,24 @@ function displayRecommendedProductList() {
     .then((response) => {
       const token = response.body;
       getProductList(token)
-        .then((response) => {
-          const prodList = JSON.parse(response.body);
-          for (let i = 0; i < prodList.length; i++) {
-            const prodId = prodList[i].id;
-            getFullProduct(prodId)
-              .then((prod) => {
-                // some DOM update
-                document.getElementById("prod-container").appendChild();
-              })
-              .catch((err) => alert("error"));
-          }
-        })
+        .then(getProductListHandler)
         .catch((err) => alert("error"));
     })
     .catch((err) => alert("error"));
+}
+
+function getProductListHandler(response) {
+  const prodList = JSON.parse(response.body);
+  for (let i = 0; i < prodList.length; i++) {
+    const prodId = prodList[i].id;
+    getFullProduct(prodId)
+      .then((prod) => {
+        // some DOM update
+        document.getElementById("prod-container").appendChild();
+      })
+      .catch((err) => alert("error"));
+  }
+
 }
 
 // Async / Await
